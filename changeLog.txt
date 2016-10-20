@@ -1,0 +1,11 @@
+Version 1.0:
+-Modify script to be use with the new certbot-auto client
+-Change the email Message to contain the output of command instead of the custom message if succeful
+-Change the domains list to fit the new requirement of the certbot-auto
+-.ini file no longer needed
+
+Version 0.2:
+-add version of script in e-mail
+-add service restart to the script
+-add a sleep time if you send e-mail with the same server you're renewing the certificate
+-add e-mail report for the service restarting
